@@ -112,7 +112,7 @@ function Tt($Td)
 }
 
 /* Прогноз тумана */
-function fog($Tmin,$Tt) 
+function fog_zverev($Tmin,$Tt) 
 {
 	
 	if ($Tt > $Tmin) {$fog = 1;} else {$fog = 0;}
@@ -122,7 +122,7 @@ function fog($Tmin,$Tt)
 }
 
 /* Прогноз тумана */
-function fog1($T,$Td,$V,$Nl,$Nm,$Nh) 
+function fog_zverev1($T,$Td,$V,$Nl,$Nm,$Nh) 
 {
 	//$Td=$Td1;
 	//Tt($Td);
