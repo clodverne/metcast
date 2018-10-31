@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<?php include('metcast.class.php'); ?>
+ <p>This page calculate fog!</p>
+ <br>
+	<?php
+
+		$newClass = new metcast(); // Создаем экземпляр класса Sample
+
+		//$newClass->Title = "Заголовок"; // Изменение переменной класса Sample
+
+		//$newClass->setAll("Заголовок", "Содержание"); // Обращение к функциям класса Sample
+
+		//$newClass->Tmin(10,7,10,0,0,10); // Вывод в браузер переменной Content, находящейся в классе Sample
+		//$newClass->Tt(7);
+		$newClass->fog($newClass->Tmin(10,9,2,0,0,2),$newClass->Tt(9));
+		$newClass->fog1(10,9,2,0,0,2);
+
+	?>
+</body>
+</html>
