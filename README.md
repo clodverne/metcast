@@ -3,5 +3,5 @@
 <hr>
 <li> + прогноз радиационного тумана (метод Зверева)
   ```php
-<?php fog_zverev1($T,$Td,$V,$Nl,$Nm,$Nh); ?>
+fog_zverev1($T,$Td,$V,$Nl,$Nm,$Nh); 
 ```
